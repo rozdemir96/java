@@ -22,13 +22,13 @@ public class Main {
 		
 		StudentManager studentManager = new StudentManager();
 		studentManager.add(student);
+		studentManager.welcome(student, "Kursa hoş geldin...");
 		studentManager.delete(student);
 		
 		InstructorManager instructorManager = new InstructorManager();
 		instructorManager.add(instructor);
 		instructorManager.update(instructor);
 		instructorManager.delete(instructor);
-		
-		
+	
 	}
 }
