@@ -28,5 +28,7 @@ public class Main {
 		instructorManager.add(instructor);
 		instructorManager.update(instructor);
 		instructorManager.delete(instructor);
+		
+		
 	}
 }
