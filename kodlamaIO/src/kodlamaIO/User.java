@@ -1,11 +1,15 @@
 package kodlamaIO;
 
 public class User {
-	
+
 	private int id;
 	private int courseId;
 	private String firstName;
 	private String lastName;
+	
+	public User() {
+
+	}
 
 	public int getId() {
 		return id;
