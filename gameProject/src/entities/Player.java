@@ -1,21 +1,23 @@
-package interfaceAbstractDemo.entities;
+package entities;
 
 import java.time.LocalDate;
+
 import abstracts.Entity;
 
-public class Customer implements Entity{
+public class Player implements Entity {
 	
 	private int id;
 	private String firstName;
 	private String lastName;
-	private LocalDate dateOfBirth;	
+	private LocalDate dateOfBirth;
 	private String nationalityId;
 	
-	public Customer() {
+	public Player() {
 		
 	}
-	
-	public Customer(int id, String firstName, String lastName, LocalDate dateOfBirth, String nationalityId) {
+
+	public Player(int id, String firstName, String lastName, LocalDate dateOfBirth, String nationalityId) {
+		super();
 		this.id = id;
 		this.firstName = firstName;
 		this.lastName = lastName;
@@ -64,5 +66,5 @@ public class Customer implements Entity{
 	}
 	
 	
-
+	
 }
